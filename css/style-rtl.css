@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap');
+
+body {
+	direction: rtl;
+	font-family: 'Tajawal', sans-serif;
+	text-align: right; /* text-align: center;*/
+}
+
+section{
+	padding: 10px 0;
+}
+.navbar {
+	box-shadow: 1px 2px 5px #e6dfdf;
+}
+.home {
+	background-image: url(../img/slide-bg-1.jpg);
+	background-size: cover;
+	height: 90vh;
+	padding: 1px;
+}
+.home-item {
+	                 /*وضع الكلام فى المنتصف*/
+	width: 50%;
+	margin-right: auto;
+	margin-top: 15%;
+}
+nav ul li {  /*-من عندى*/
+	margin: 0 20px;
+}
+.home-item h2 {
+	color: #fff;
+	font-size: 45px;
+}
+
+.center{
+	text-align: center;
+
+}
+.news .news__left{
+	display: flex;
+}
+.news .news__left img{
+	margin-left: 10px;
+	/* align-items: center; */
+}
+.flex{
+	display: flex;
+}
